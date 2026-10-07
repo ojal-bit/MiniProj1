@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#main{
+  background-image: url(photo.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.bttn_one i{
+  color: white;
+  line-height: 26px;
+  font-size: 26px;
+  position: absolute;
+  left: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.bttn_two i{
+  color: white;
+  line-height: 26px;
+  font-size: 26px;
+  position: absolute;
+  left: 280px;
+  top: 1px;
+  padding: 10px 10px 10px 0px;
+  cursor: pointer;
+
+} 
+.menu{
+  position: fixed;
+  height: 100vh;
+  width: 300px;
+  left: -300px;
+  box-shadow: 0 0 10px grey;
+}
+div .logo{
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  box-shadow: 0 0 10px grey;
+
+}
+#check{
+  display: none;
+}
+
+.nav{
+  line-height: 30px;
+  font-size: 25px;
+  padding:  10px;
+  line-height: 50px;
+
+}
+.logo a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.nav a{
+  color: white;
+  padding: 10px 15px 10px 10px;
+  text-decoration: none;
+}
+ .nav i{
+  padding: 0 10px 0 0;
+  color: white;
+
+}
+.social {
+  position: absolute;
+  bottom: 30px;
+  left: 30%;
+  font-size: 15px;
+  letter-spacing: 5px;
+
+}
+.social i{
+  color:white;
+  opacity: 0.5;
+ 
+}
+.social i:hover{
+  opacity: 1;
+  transform: scale(1.5);
+}
+
+#check:checked ~ .menu {
+  left: 0;
+}
+.nav li:hover{
+    box-shadow: 0 0 10px grey;
+}
+.bttn_two i:hover{
+  font-size: 35px;
+}
